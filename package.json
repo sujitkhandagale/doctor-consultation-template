@@ -12,6 +12,11 @@
     "@next/font": "13.1.6",
     "next": "13.1.6",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-router-dom": "^6.8.1",
+    "scss": "^0.2.4"
+  },
+  "devDependencies": {
+    "sass": "^1.58.0"
   }
 }
