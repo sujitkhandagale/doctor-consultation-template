@@ -1,0 +1,27 @@
+@import '/src/app/Global.scss';
+
+.offers {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 0px;
+}
+
+.offers-tab {
+    text-align: center;
+    background-color: rgb(218, 218, 218);
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    border: 1px solid $base-color;
+}
+
+.offers-tab h4 {
+    margin: 0;
+}
+
+.offers-tab:hover {
+    background-color: rgb(218, 218, 218);
+}

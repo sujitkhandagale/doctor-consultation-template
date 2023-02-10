@@ -1,10 +1,13 @@
 import React from 'react'
+import Navbar from './../components/Navbar';
+
+
 
 const about = () => {
     return (
-        <div>
-<button className='btn btn-danger'>hkndfgn</button>
-        </div>
+      <>
+      <Navbar/>
+      </>
     )
 }
 

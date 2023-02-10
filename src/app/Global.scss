@@ -1,0 +1,82 @@
+$base-color: #23ce6b;
+$body-color: rgb(214, 211, 211);
+$navbar-a-color: white;
+$box-color : #23ce6b;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+h2,h3,h4,h5,h6 {
+    font-family: "Poppins", sans-serif;
+    font-family: 400;
+}
+
+
+.--btn-style-2 {
+    padding: 10px;
+    background-color: rgb(238, 43, 43);
+    border: 0 solid transparent ;
+    color:white;
+}
+
+.header-notfication {
+    animation-direction: alternate ;
+    background-color: #f34040;
+    color: white;
+    padding: 3px;
+    font-family: "Poppins", sans-serif;
+    font-family: 200;
+    font-size: 12px;
+    overflow: hidden;
+
+}
+
+.header-text-no {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    -moz-animation: my-animation 15s linear infinite;
+    -webkit-animation: my-animation 15s linear infinite;
+    animation: my-animation 15s linear infinite;
+}
+
+
+  /* for Firefox */
+  @-moz-keyframes my-animation {
+    from { -moz-transform: translateX(100%); }
+    to { -moz-transform: translateX(-100%); }
+  }
+
+  /* for Chrome */
+  @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateX(100%); }
+    to { -webkit-transform: translateX(-100%); }
+  }
+
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+    to {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+}
+
+.container {
+  padding: 0 10px 0 10px;
+}
+
+.container-none {
+  padding: 0;
+}
+
+.section-heading {
+  padding: 20px 0 20px 0;
+}
+
+.text-center{
+  text-align: center !important;
+}
