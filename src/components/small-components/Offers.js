@@ -30,7 +30,6 @@ function Offers({ children }) {
 <h4>Effective Disease Management</h4>
       </div>
     </div>
-    <iframe width="1280" height="720" src="https://www.youtube.com/embed/T1xLtk6F27E" title="Ambulance Video for Children | Truck Tunes for Kids | Twenty Trucks Channel | Fire and Rescue" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   </div>
   );
 }

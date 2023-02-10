@@ -16,7 +16,7 @@ function Home() {
       </div>
     </div> */}
 <Hero></Hero>
-<Offers>dfgfg</Offers>
+<Offers></Offers>
 <div></div>
   </main>
   )
