@@ -21,14 +21,14 @@ nav {
   flex-direction: column;
   gap: 10px;
 }
-.nav-link {
+ .nav-link {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   color: $navbar-a-color;
   text-decoration: none;
-  padding: 10px 0 10px 0;
+  padding: 6px 0 10px 0;
   font-size: 15px;
-  line-height: 35px;
+
 }
 .nav-link :hover {
   font-family: "Poppins", sans-serif;

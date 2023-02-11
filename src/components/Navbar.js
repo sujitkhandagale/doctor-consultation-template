@@ -8,8 +8,7 @@ function Navbar({childern}) {
 <nav className='navbar'>
  <div className="navbar-collection">
     <div className="navbar-links">
-       <ul className=''>
-
+       <ul className='navlinks-options'>
         <li><Link className='nav-link' href="/">Home</Link></li>
         <li><Link className='nav-link'  href="/benefits">Benefits</Link></li>
         <li><Link className='nav-link'  href="/about">About Me</Link></li>
