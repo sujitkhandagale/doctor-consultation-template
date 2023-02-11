@@ -19,8 +19,8 @@ function Navbar({childern}) {
     </div>
  </div>
 </nav>
-    </div>
 
+    </div>
   )
 }
 

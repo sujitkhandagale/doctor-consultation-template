@@ -3,6 +3,7 @@ import { React } from 'react';
 import Navbar from '../components/Navbar';
 import Hero from './../components/Hero';
 import './Global.scss'
+import AmbulanceDemo from './../components/small-components/AmbulanceDemo';
 
 
 function Home() {
@@ -17,6 +18,7 @@ function Home() {
     </div> */}
 <Hero></Hero>
 <Offers></Offers>
+<AmbulanceDemo/>
 <div></div>
   </main>
   )

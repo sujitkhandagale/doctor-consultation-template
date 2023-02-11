@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./Offers.scss";
 import Image from 'next/image';
 import ambulance from '../../assets/ambulance.png';
