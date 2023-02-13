@@ -1,21 +1,32 @@
 .hero-home {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	padding-top: 75px;
+	// background-image: url('https://images.pexels.com/photos/247786/pexels-photo-247786.jpeg?cs=srgb&dl=pexels-pixabay-247786.jpg&fm=jpg');
+	// background-size: cover;
+	// background-repeat: no-repeat;
+	// background-position: center center;
 
-    display: grid;
-  grid-template-columns: 50vmax 50vmax;
-  padding-top: 50px ;
-  background-image: url(https://images.pexels.com/photos/247786/pexels-photo-247786.jpeg?cs=srgb&dl=pexels-pixabay-247786.jpg&fm=jpg);
-  background-size:     cover;                      /* <------ */
-  background-repeat:   no-repeat;
-  background-position: center center;
-  // height: 60vh;
+	background: center center/cover no-repeat
+		url('https://images.pexels.com/photos/247786/pexels-photo-247786.jpeg?cs=srgb&dl=pexels-pixabay-247786.jpg&fm=jpg');
 }
 .hero-1 {
-justify-content: center;
-text-align: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.flex-centered {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .auto-p-1 {
-  position: relative;
-  top: 30%;
+	position: relative;
+	top: 30%;
+}
 
+.image-div {
+	height: 100%;
 }
