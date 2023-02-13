@@ -1,19 +1,19 @@
 .hero-home {
-  display: grid;
-  grid-template-columns: 50vmax 50vmax;
-  padding-top: 50px;
-  background-image: url(https://images.pexels.com/photos/247786/pexels-photo-247786.jpeg?cs=srgb&dl=pexels-pixabay-247786.jpg&fm=jpg);
-  background-size: cover; /* <------ */
-  background-repeat: no-repeat;
-  background-position: center center;
+	display: grid;
+	grid-template-columns: 50vmax 50vmax;
+	padding-top: 50px;
+	background-image: url(https://images.pexels.com/photos/247786/pexels-photo-247786.jpeg?cs=srgb&dl=pexels-pixabay-247786.jpg&fm=jpg);
+	background-size: cover; /* <------ */
+	background-repeat: no-repeat;
+	background-position: center center;
 }
 
 .hero-1 {
-  justify-content: center;
-  text-align: center;
+	justify-content: center;
+	text-align: center;
 }
 
 .auto-p-1 {
-  position: relative;
-  top: 30%;
-}/*# sourceMappingURL=Hero.css.map */
+	position: relative;
+	top: 30%;
+} /*# sourceMappingURL=Hero.css.map */
