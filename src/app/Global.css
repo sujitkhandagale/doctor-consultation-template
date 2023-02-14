@@ -1,39 +1,39 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 h2 {
-  font-family: "Poppins", sans-serif;
-  font-family: 400;
+	font-family: 'Poppins', sans-serif;
+	font-family: 400;
 }
 
 .--btn-style-2 {
-  padding: 10px;
-  background-color: rgb(238, 43, 43);
-  border: 0 solid transparent;
-  color: white;
+	padding: 10px;
+	background-color: rgb(238, 43, 43);
+	border: 0 solid transparent;
+	color: white;
 }
 
 .header-notfication {
-  animation-direction: alternate;
-  background-color: #f34040;
-  color: white;
-  padding: 3px;
-  font-family: "Poppins", sans-serif;
-  font-family: 200;
-  font-size: 12px;
-  overflow: hidden;
+	animation-direction: alternate;
+	background-color: #f34040;
+	color: white;
+	padding: 3px;
+	font-family: 'Poppins', sans-serif;
+	font-family: 200;
+	font-size: 12px;
+	overflow: hidden;
 }
 
 .header-text-no {
-  transform: translateX(100%);
-  animation: my-animation 15s linear infinite;
+	transform: translateX(100%);
+	animation: my-animation 15s linear infinite;
 }
 
 /* for Firefox */
 /* for Chrome */
 @keyframes my-animation {
-  from {
-    transform: translateX(100%);
-  }
-  to {
-    transform: translateX(-100%);
-  }
-}/*# sourceMappingURL=Global.css.map */
+	from {
+		transform: translateX(100%);
+	}
+	to {
+		transform: translateX(-100%);
+	}
+} /*# sourceMappingURL=Global.css.map */

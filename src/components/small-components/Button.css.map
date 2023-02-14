@@ -1,1 +1,10 @@
-{"version":3,"sources":["Button.scss","Button.css"],"names":[],"mappings":"AAAA;EACI,aAAA;ACCJ","file":"Button.css"}
+{
+	"version": 3,
+	"sources": [
+		"Button.scss",
+		"Button.css"
+	],
+	"names": [],
+	"mappings": "AAAA;EACI,aAAA;ACCJ",
+	"file": "Button.css"
+}
