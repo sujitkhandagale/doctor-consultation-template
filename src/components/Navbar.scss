@@ -132,39 +132,5 @@ a {
 }
 
 .menuNav li:first-child {
-<<<<<<< HEAD
-  margin-top: 7rem;
-}
-
-.mobile-menu {
-  position: fixed;
-  top: 80%;
-  right: 20%;
-  float: right;
-  display: inline;
-}
-
-@media only screen and (max-width:600px) {
-  .mobile-menu {
-display: inline-block;
-  }
-
-  .setMobilemenushow {
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: #08df61;
-    height: 100vh;
-    width: 25vh;
-    display: block !important;
-    z-index: 999;
-  }
-}
-
-.setMobilemenuhide {
-  display: none;
-}
-=======
 	margin-top: 7rem;
 }
->>>>>>> b5cf500b56fdef7384363ca136ea5527cb45fe1b
