@@ -1,12 +1,17 @@
 import React from 'react'
 import "./Navbar.scss"
+import MobileMenu from './small-components/MobileMenu';
+
+
 
 import Link from "next/link";
+import mobileMenu from './small-components/MobileMenu';
 function Navbar({childern}) {
   return (
     <div>
 <nav className='navbar'>
  <div className="navbar-collection">
+  <MobileMenu></MobileMenu>
     <div className="navbar-links">
        <ul className='navlinks-options'>
         <li><Link className='nav-link' href="/">Home</Link></li>

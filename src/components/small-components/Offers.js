@@ -1,5 +1,5 @@
+"use client"
 import React from "react";
-
 import "./Offers.scss";
 import Image from 'next/image';
 import ambulance from '../../assets/ambulance.png';
@@ -11,6 +11,7 @@ import medicalStaff from '../../assets/medical-team.png';
 
 
 function Offers({ children }) {
+
   return (
   <div className="container">
     <div className="section-heading text-center">
@@ -38,7 +39,7 @@ function Offers({ children }) {
 <h4>Effective Disease Management</h4>
       </div>
     </div>
-  </div>
+    </div>
   );
 }
 
