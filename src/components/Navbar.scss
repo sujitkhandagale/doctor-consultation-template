@@ -15,18 +15,40 @@ nav {
 	padding: 15px 20px 50px 20px;
 	background-color: $base-color;
 }
-.mobile-menu {
+.setMobilemenuhide {
 	display: none;
 }
 .desktop-view {
 	display: block;
 }
+.MobileMenuOpenButton {
+	display:none;
+}
 @media only screen and (max-width:600px) {
+	.navbar {
+		padding: 0 !important;
+	}
 	.desktop-view {
 		display: none;
 	}
-	.mobile-menu {
+	.MobileMenuOpenButton button {
+		color: white;
+		border: none;
+		background-color: #08df61;
+	}
+	.setMobilemenuhide {
 		display: none;
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		background-color: black;
+		height: 100%;
+		width: 100%;
+		padding-top: 20px;
+		margin: 0;
+	}
+	.setMobilemenushow {
+		display: BLOCK;
 		position: fixed;
 		left: 0;
 		bottom: 0;
@@ -41,7 +63,7 @@ nav {
 
 	}
 	.navbar-links {
-		padding-top: 20px;
+		padding-top: 100px;
 		float: none !important;
 		text-align: center;
 	}
@@ -49,6 +71,20 @@ nav {
 		display: block !important;
 		padding-left: 10px !important;
 
+	}
+	.MobileMenuOpenButton {
+		position: fixed;
+		top: 2%;
+		right: 4%;
+		z-index: 10;
+
+
+	}
+
+}
+@media only screen and (max-width:900px) {
+	.MobileMenuOpenButton {
+		display: block;
 	}
 }
 .navbar-collectio {
@@ -167,4 +203,9 @@ a {
 
 .menuNav li:first-child {
 	margin-top: 7rem;
+}
+
+.MobileMenuOpenButton {
+	position: fixed;
+	top: 4;
 }

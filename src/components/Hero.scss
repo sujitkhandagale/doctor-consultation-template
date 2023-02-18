@@ -10,6 +10,9 @@
 
 
 }
+.p-2 {
+	padding-left: 20px;
+}
 @media only screen and (max-width: 600px){
 	.hero-home {
 		display: flex;
@@ -27,6 +30,10 @@
 	.hero-home img {
 		width: 200px;
 	}
+	.hero-home h2 {
+		font-size: 20px !important;
+	}
+
 }
 .hero-1 {
 	justify-content: center;

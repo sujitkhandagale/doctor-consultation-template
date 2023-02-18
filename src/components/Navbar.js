@@ -1,12 +1,24 @@
-import React from 'react';
+"use client"
+import React, {useState} from 'react';
 import './Navbar.scss';
 
 import Link from 'next/link';
+import { GiHamburgerMenu } from 'react-icons/gi';
 function Navbar({ childern }) {
+    const [isMobilemenu, setMobilemenushow] = useState("false");
+
+    const ToggleClass = () => {
+        setMobilemenushow(!isMobilemenu);
+         };
 	return (
 		<div>
 			<nav className="navbar">
-				<div className="navbar-collection mobile-menu desktop-view">
+
+<div className="MobileMenuOpenButton">
+	<button onClick={ToggleClass}><GiHamburgerMenu
+ size={30} /></button>
+</div>
+<div className={isMobilemenu ? "setMobilemenuhide navbar-collection desktop-view" : "setMobilemenushow navbar-collection mobile-menu desktop-view"}>
 
 					<div className="navbar-links">
 
@@ -14,7 +26,7 @@ function Navbar({ childern }) {
 
 							<li>
 								<Link className="nav-link" href="/">
-									Home
+Home
 								</Link>
 							</li>
 							<li>

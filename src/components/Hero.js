@@ -7,7 +7,7 @@ function Hero() {
 	return (
 		<div className="container-none">
 			<div className="hero-home">
-				<div className="hero-1 flex-centered">
+				<div className="hero-1 p-2 flex-centered">
 					<h2>Just One Step Away To Book Appointment</h2>
 					<p>Feeling not well, having stress on daily bases</p>
 					<button className="--btn-style-2">Book Appointment</button>

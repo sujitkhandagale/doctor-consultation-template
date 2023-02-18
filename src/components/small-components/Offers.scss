@@ -12,14 +12,13 @@
 @media only screen and (max-width:600px) {
 	.offers {
 		display: grid;
-		flex-direction: row;
+		grid-template-columns: 1fr 2fr;
 		text-align: center;
 		gap: 20px;
 		justify-content: center;
 		padding-top: 0px;
 	}
 }
-
 .offers-tab {
 	text-align: center;
 	background-color: rgb(218, 218, 218);
