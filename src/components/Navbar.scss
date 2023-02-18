@@ -15,6 +15,42 @@ nav {
 	padding: 15px 20px 50px 20px;
 	background-color: $base-color;
 }
+.mobile-menu {
+	display: none;
+}
+.desktop-view {
+	display: block;
+}
+@media only screen and (max-width:600px) {
+	.desktop-view {
+		display: none;
+	}
+	.mobile-menu {
+		display: none;
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		background-color: black;
+		height: 100%;
+		width: 100%;
+		padding-top: 20px;
+		margin: 0;
+	}
+	.mobile-view-button {
+		float: right;
+
+	}
+	.navbar-links {
+		padding-top: 20px;
+		float: none !important;
+		text-align: center;
+	}
+	.navbar-links ul {
+		display: block !important;
+		padding-left: 10px !important;
+
+	}
+}
 .navbar-collectio {
 	display: flex;
 	flex-direction: column;
@@ -72,8 +108,6 @@ nav {
 	border: 2px solid transparent;
 }
 
-.button-style-1 a {
-}
 
 .p-0 {
 	padding: 0 !important;

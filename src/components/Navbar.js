@@ -6,9 +6,12 @@ function Navbar({ childern }) {
 	return (
 		<div>
 			<nav className="navbar">
-				<div className="navbar-collection">
+				<div className="navbar-collection mobile-menu desktop-view">
+
 					<div className="navbar-links">
+
 						<ul className="navlinks-options">
+
 							<li>
 								<Link className="nav-link" href="/">
 									Home

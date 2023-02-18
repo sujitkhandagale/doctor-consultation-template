@@ -2,6 +2,7 @@ import React from 'react';
 import './Hero.scss';
 import Button from './small-components/Button';
 
+
 function Hero() {
 	return (
 		<div className="container-none">
@@ -14,7 +15,7 @@ function Hero() {
 				<div className="hero-1 auto-p-2">
 					<img
 						className="image-div"
-						src="https://www.pngitem.com/pimgs/b/193-1939059_doctor-image-png.png"
+						src="https://i.ibb.co/Jc0Bp31/demo.png"
 						width={300}
 						alt=""
 					/>
