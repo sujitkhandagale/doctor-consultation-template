@@ -40,9 +40,10 @@ Home
 								</Link>
 							</li>
 							<li>
-								<a className="nav-link" href="">
+
+							<Link className="nav-link" href='/contact'>
 									Contact
-								</a>
+								</Link>
 							</li>
 							<li>
 								<button className="button-style-1">
@@ -50,6 +51,7 @@ Home
 										href="tel:+Emergency Call"
 										className="p-0 m-0 text-decoration-none"
 									>
+
 										Emergency Call
 									</a>
 								</button>

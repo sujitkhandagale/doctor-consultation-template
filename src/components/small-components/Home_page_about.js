@@ -2,15 +2,18 @@ import React from 'react'
 
 function Home_page_about() {
   return (
-    <div> <div className="container">
-        <h3>About Our Clinic</h3>
+
+        <div className='container'>
+       <div className="section-heading text-center">
+				<h2>Our Clinic</h2>
+			</div>
         <h4>orem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
     molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
     numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
     optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
     obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam</h4>
-        </div> </div>
+        </div>
   )
 }
 
-export default Home_page_about
+export default Home_page_about;

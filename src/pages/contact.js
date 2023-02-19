@@ -1,7 +1,10 @@
 import React from 'react';
+import Navbar from './../components/Navbar';
 
 function contact() {
-	return <div>contact</div>;
+	return <div>
+		<Navbar/>
+	</div>;
 }
 
 export default contact;

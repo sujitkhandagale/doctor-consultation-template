@@ -28,10 +28,15 @@
 	border: 1px solid $base-color;
 }
 
+.offers-tab:hover {
+
+}
+
 .offers-tab h4 {
 	margin: 0;
 }
 
 .offers-tab:hover {
-	background-color: rgb(218, 218, 218);
+	background-color: rgb(238 43 43);
+	color:white
 }

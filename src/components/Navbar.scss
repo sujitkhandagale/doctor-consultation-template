@@ -24,6 +24,9 @@ nav {
 .MobileMenuOpenButton {
 	display:none;
 }
+.navbar-logo {
+	position: relative;
+}
 @media only screen and (max-width:600px) {
 	.navbar {
 		padding: 0 !important;
@@ -77,15 +80,13 @@ nav {
 		top: 2%;
 		right: 4%;
 		z-index: 10;
-
+		display: block;
 
 	}
 
 }
 @media only screen and (max-width:900px) {
-	.MobileMenuOpenButton {
-		display: block;
-	}
+
 }
 .navbar-collectio {
 	display: flex;
@@ -139,11 +140,14 @@ nav {
 }
 
 .button-style-1 {
-	background-color: green($color: #000000);
+	background-color: red;
 	padding: 8px;
 	border: 2px solid transparent;
+	color: white;
 }
-
+.button-style-1 a {
+	color: white;
+}
 
 .p-0 {
 	padding: 0 !important;
@@ -152,10 +156,6 @@ nav {
 	margin: 0 !important;
 }
 
-.button-style-1:hover {
-	background-color: #08df61;
-	border: 2px solid rgb(247, 182, 16);
-}
 
 .button-style-1 li button {
 	padding: 20px;
@@ -208,4 +208,8 @@ a {
 .MobileMenuOpenButton {
 	position: fixed;
 	top: 4;
+}
+
+.fa-phone:hover {
+	transform: rotate(45deg);
 }
