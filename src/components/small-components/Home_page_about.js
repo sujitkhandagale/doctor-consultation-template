@@ -5,7 +5,7 @@ function Home_page_about() {
 
         <div className='container'>
        <div className="section-heading text-center">
-				<h2>Our Clinic</h2>
+				<h2>Our Clinic Experts</h2>
 			</div>
         <h4>orem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
     molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum

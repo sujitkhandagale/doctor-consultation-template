@@ -1,6 +1,8 @@
 import React from 'react';
 import './Hero.scss';
 import Button from './small-components/Button';
+import Team from '../assets/team.png';
+import Image from 'next/image';
 
 
 function Hero() {
@@ -8,17 +10,13 @@ function Hero() {
 		<div className="container-none">
 			<div className="hero-home">
 				<div className="hero-1 p-2 flex-centered">
-					<h2>Just One Step Away To Book Appointment</h2>
+					<h2>Just One Step Away To Book <br /> <span>Appointment</span></h2>
 					<p>Feeling not well, having stress on daily bases</p>
 					<button className="--btn-style-2">Book Appointment</button>
 				</div>
 				<div className="hero-1 auto-p-2">
-					<img
-						className="image-div"
-						src="https://i.ibb.co/Jc0Bp31/demo.png"
-						width={300}
-						alt=""
-					/>
+					<Image src={Team} width={600} alt={"doctor Team"} />
+
 				</div>
 			</div>
 		</div>

@@ -12,8 +12,11 @@ body {
 	padding: 0;
 }
 nav {
+	position: absolute;
+	right: 3%;
 	padding: 15px 20px 50px 20px;
-	background-color: $base-color;
+	width: 100%;
+	// background-color: $base-color;
 }
 .setMobilemenuhide {
 	display: none;
@@ -60,6 +63,7 @@ nav {
 		width: 100%;
 		padding-top: 20px;
 		margin: 0;
+		z-index: 10;
 	}
 	.mobile-view-button {
 		float: right;
@@ -79,7 +83,7 @@ nav {
 		position: fixed;
 		top: 2%;
 		right: 4%;
-		z-index: 10;
+		z-index: 11;
 		display: block;
 
 	}

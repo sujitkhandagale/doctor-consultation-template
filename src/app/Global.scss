@@ -1,4 +1,4 @@
-$base-color: #23ce6b;
+$base-color: #13ad54;
 $body-color: rgb(214, 211, 211);
 $navbar-a-color: white;
 $box-color: #23ce6b;
@@ -17,6 +17,9 @@ h6 {
 h4 {
     font-size: 14px;
 	font-weight: 300;
+}
+p {
+	font-family: 'Poppins', sans-serif;
 }
 
 a {
@@ -89,6 +92,8 @@ a {
 	width: 100%;
 	padding: 0px 15px;
 	margin: 0px auto;
+	container-type: inline-size;
+  width: 100%;
 }
 
 @media only screen and (max-width: 600px) {

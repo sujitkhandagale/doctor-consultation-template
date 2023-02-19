@@ -5,6 +5,8 @@ import Hero from './../components/Hero';
 import './Global.scss';
 import AmbulanceDemo from './../components/small-components/AmbulanceDemo';
 import Home_page_about from './../components/small-components/Home_page_about';
+import Doctor_on_Demand from '@/components/small-components/Doctor_on_Demand';
+
 
 function Home() {
 	return (
@@ -18,6 +20,7 @@ function Home() {
 			<Hero></Hero>
 			<Offers></Offers>
 			<AmbulanceDemo />
+			<Doctor_on_Demand/>
 			<Home_page_about/>
 			<div></div>
 		</main>
