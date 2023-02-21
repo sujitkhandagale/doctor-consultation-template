@@ -59,12 +59,13 @@
 
     .offers {
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
 		text-align: center;
 		gap: 10px;
 		padding-top: 0px;
 justify-items: end;
         justify-content: center !important;
+        place-items: center;
 
 	}
 
@@ -84,9 +85,15 @@ justify-items: end;
         width: 60px;
         height: 60px;
     }
-
-
-
+    .Social_media {
+        // display: grid;
+        position: fixed;
+        bottom: 2%;
+        right: 4%;
+        place-items: center;
+        float: right;
+        grid-template-columns: 1fr 2fr;
+      }
 }
 
 @media only screen and (max-width:600px)

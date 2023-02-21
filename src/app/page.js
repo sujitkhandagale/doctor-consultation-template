@@ -7,6 +7,7 @@ import './mobile_responsive.scss';
 import AmbulanceDemo from './../components/small-components/AmbulanceDemo';
 import Home_page_about from './../components/small-components/Home_page_about';
 import Doctor_on_Demand from '@/components/small-components/Doctor_on_Demand';
+import Social_media from './../components/Social_media';
 
 
 function Home() {
@@ -23,6 +24,7 @@ function Home() {
 			<AmbulanceDemo />
 			<Doctor_on_Demand/>
 			<Home_page_about/>
+			<Social_media/>
 			<div></div>
 		</main>
 	);
