@@ -9,28 +9,25 @@
 	padding-top: 0px;
 }
 
-@media only screen and (max-width:600px) {
-	.offers {
-		display: grid;
-		grid-template-columns: 1fr 2fr;
-		text-align: center;
-		gap: 20px;
-		justify-content: center;
-		padding-top: 0px;
-	}
-}
+
 .offers-tab {
 	text-align: center;
 	background-color: rgb(218, 218, 218);
 	height: 150px;
 	width: 150px;
 	padding: 10px;
-	border: 1px solid $base-color;
+	// border: 1px solid $base-color;
 }
 
-.offers-tab:hover {
-
+.offers-tab p {
+	font-size: 14px;
 }
+
+.offers-tab img {
+	width: 100px;
+	height: 100px;
+}
+
 
 .offers-tab h4 {
 	margin: 0;

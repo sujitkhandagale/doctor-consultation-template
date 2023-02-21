@@ -149,6 +149,15 @@ nav {
 	border: 2px solid transparent;
 	color: white;
 }
+.button-style-1:hover {
+	background-color:#08df61;
+	padding: 8px;
+	border: 2px solid transparent;
+	color: rgb(0, 0, 0) !important;
+}
+.button-style-1 a:hover {
+	color: rgb(32, 32, 32);
+}
 .button-style-1 a {
 	color: white;
 }

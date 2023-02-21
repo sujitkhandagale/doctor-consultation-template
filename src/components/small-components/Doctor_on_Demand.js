@@ -18,7 +18,7 @@ function Doctor_on_Demand() {
         <p>Many more things to explore</p>
       </div>
       <div className="sides_1 text-center">
-        <Image src={Mobile} width={200} alt="Mobile" /> <br />
+        <Image className="mobile-photo" src={Mobile} alt="Mobile" /> <br />
         <Image src={GooglePlayStore} width={200} alt={"play store button"} />
         <Image src={AppleyStore} width={200} alt={"Apple Store Button"} />
       </div>

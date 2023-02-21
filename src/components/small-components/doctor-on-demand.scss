@@ -7,18 +7,6 @@ background-color: $base-color;
     grid-template-columns: 2fr 1fr;
 }
 
-@media only screen and (max-width:600px)
-{
-    .doctor-on-demand {
-        display: flex;
-        flex-direction: column-reverse;
-        padding: 20px;
-
-    }
-    .doctor-on-demand, .sides_1 p {
-        font-size: 16px !important;
-    }
-}
 
 .doctor-on-demand h4 {
     font-size: 35px;
@@ -26,10 +14,7 @@ background-color: $base-color;
     font-weight: 600;
     margin: 16px 0 16px 0;
 }
-.doctor-on-demand p {
-    font-size: 20px;
 
-}
 
 .sides_1 {
     width: 100%;

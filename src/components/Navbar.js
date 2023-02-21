@@ -25,7 +25,7 @@ function Navbar({ childern }) {
 						<ul className="navlinks-options">
 
 							<li>
-								<Link className="nav-link" href="/">
+								<Link className="nav-link active" href="/">
 Home
 								</Link>
 							</li>

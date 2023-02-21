@@ -15,24 +15,24 @@ function Offers({ children }) {
 			</div>
 			<div className="offers">
 				<div className="offers-tab">
-					<Image src={ambulance} width={100} alt="" />
-					<h4>Immediate Assistance</h4>
+					<Image src={ambulance} alt="" />
+					<p>Immediate Assistance</p>
 				</div>
 				<div className="offers-tab">
-					<Image src={Arrow} width={100} alt="" />
-					<h4>Less Expensive</h4>
+					<Image src={Arrow}  alt="" />
+					<p>Less Expensive</p>
 				</div>
 				<div className="offers-tab">
-					<Image src={medicalStaff} width={100} alt="" />
-					<h4>Experienced Staff</h4>
+					<Image src={medicalStaff}  alt="" />
+					<p>Experienced Staff</p>
 				</div>
 				<div className="offers-tab">
-					<Image src={immunity} width={100} alt="" />
-					<h4>Ideal For Preventive Care</h4>
+					<Image src={immunity}  alt="" />
+					<p>Ideal For Preventive Care</p>
 				</div>
 				<div className="offers-tab">
-					<Image src={autoimmuneDdisease} width={100} alt="" />
-					<h4>Effective Disease Management</h4>
+					<Image src={autoimmuneDdisease}  alt="" />
+					<p>Effective Disease Management</p>
 				</div>
 			</div>
 		</div>
