@@ -3,7 +3,7 @@ import './Hero.scss';
 import Button from './small-components/Button';
 import Team from '../assets/team.png';
 import Image from 'next/image';
-
+// import '../app/mobile-responsive.scss'
 
 function Hero() {
 	return (

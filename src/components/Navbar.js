@@ -1,7 +1,7 @@
 "use client"
 import React, {useState} from 'react';
 import './Navbar.scss';
-
+// import '../app/mobile-responsive.scss'
 import Link from 'next/link';
 import { GiHamburgerMenu } from 'react-icons/gi';
 function Navbar({ childern }) {

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import '../../app/mobile-responsive.scss'
 function Home_page_about() {
   return (
 

@@ -6,7 +6,7 @@ import Arrow from '../../assets/arrow.png';
 import autoimmuneDdisease from '../../assets/autoimmune-disease.png';
 import immunity from '../../assets/immunity.png';
 import medicalStaff from '../../assets/medical-team.png';
-
+import '../../app/mobile-responsive.scss'
 function Offers({ children }) {
 	return (
 		<div className="container">

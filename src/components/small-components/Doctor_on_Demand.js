@@ -4,6 +4,7 @@ import GooglePlayStore from "../../assets/google-store.png";
 import AppleyStore from "../../assets/apple-store.png";
 import Mobile from "../../assets/mobile.png";
 import Image from "next/image";
+import '../../app/mobile-responsive.scss'
 
 function Doctor_on_Demand() {
   return (

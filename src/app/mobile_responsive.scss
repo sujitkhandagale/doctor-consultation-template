@@ -6,20 +6,20 @@
 @media only screen and ( max-width:992px) {
 
     li .active {
-        margin-left: 80px;
-        margin-right: 80px;
+        margin-left: 80px !important;
+        margin-right: 80px !important;
     }
     .hero-home {
-		display: flex;
-		flex-direction: column-reverse;
-		padding-top: 100px;
-		padding-bottom: 50px;
-		background-image: url('https://images.unsplash.com/photo-1629909613654-28e377c37b09?ixlib=rb-4.0.3&dl=benyamin-bohlouli-e7MJLM5VGjY-unsplash.jpg&w=1920&q=80&fm=jpg&crop=entropy&cs=tinysrgb');
-	 background-size: cover;
-	background-repeat: no-repeat;
-	 background-position: center center;
-	 height: 100%;
-	 width: 100%;
+		display: flex !important;
+		flex-direction: column-reverse !important;
+		padding-top: 100px !important;
+		padding-bottom: 50px !important;
+		background-image: url('https://images.unsplash.com/photo-1629909613654-28e377c37b09?ixlib=rb-4.0.3&dl=benyamin-bohlouli-e7MJLM5VGjY-unsplash.jpg&w=1920&q=80&fm=jpg&crop=entropy&cs=tinysrgb') !important;
+	 background-size: cover !important;
+	background-repeat: no-repeat !important;
+	 background-position: center center !important;
+	 height: 100% !important;
+	 width: 100% !important;
 
 	}
 
@@ -43,56 +43,56 @@
 
     }
     .doctor-on-demand p {
-        font-size: $mobile-p-font-size;
+        font-size: $mobile-p-font-size !important;
     }
     .sides_1 h4 {
-        font-size: 20px;
+        font-size: 20px !important;
     }
     .doctor-on-demand, .sides_1 p {
         font-size: 16px !important;
     }
 
     .doctor-on-demand img {
-        width: 150px;
-        height: auto;
+        width: 150px !important;
+        height: auto !important;
     }
 
     .offers {
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr 1fr;
-		text-align: center;
-		gap: 10px;
-		padding-top: 0px;
-justify-items: end;
+		grid-template-columns: 1fr 1fr 1fr 1fr !important;
+		text-align: center !important;
+		gap: 10px !important;
+		padding-top: 0px !important;
+justify-items: end !important;
         justify-content: center !important;
-        place-items: center;
+        place-items: center !important;
 
 	}
 
     .offers-tab {
-        height: 100px;
-        width: 100px;
+        height: 100px !important;
+        width: 100px !important;
     }
     .offers-tab h4 {
-        font-size: 20px;
-        font-weight: 400;
+        font-size: 20px !important;
+        font-weight: 400 !important;
     }
     .offers-tab p {
-        font-size: $mobile-p-font-size;
+        font-size: $mobile-p-font-size !important;
     }
 
     .offers img {
-        width: 60px;
-        height: 60px;
+        width: 60px !important;
+        height: 60px !important;
     }
     .Social_media {
         // display: grid;
         position: fixed;
-        bottom: 2%;
-        right: 4%;
-        place-items: center;
-        float: right;
-        grid-template-columns: 1fr 2fr;
+        bottom: 2% !important;
+        right: 4% !important;
+        place-items: center !important;
+        float: right !important;
+        grid-template-columns: 1fr 2fr !important;
       }
 }
 
@@ -100,13 +100,13 @@ justify-items: end;
 {
     .offers {
 		display: grid;
-		grid-template-columns: 1fr 1fr;
-		text-align: center;
-		gap: 10px;
-		padding-top: 0px;
-justify-items: end;
+		grid-template-columns: 1fr 1fr !important;
+		text-align: center !important;
+		gap: 10px !important;
+		padding-top: 0px !important;
+justify-items: end !important;
         justify-content: center !important;
-        place-items: center;
+        place-items: center !important;
 
 	}
 }
