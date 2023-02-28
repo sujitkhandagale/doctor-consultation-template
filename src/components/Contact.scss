@@ -1,0 +1,47 @@
+@import '/src/app/Global.scss';
+.page-section-heading {
+    text-align: center;
+   padding: 100px 0 100px 0;
+   background-color: $base-color;
+}
+
+.page-section-heading h1 {
+    text-transform: uppercase;
+font-size: 35px;
+font-family: "Poppins", sans-serif;
+font-family: 400;
+color: white;
+}
+
+.contact-form {
+    padding-top: 50px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+place-items: center;
+}
+
+.form-section {
+    border: 1px solid black;
+    padding: 30px 50px 50px 50px;
+}
+
+.form-control {
+    height: 30px;
+    width: 400px;
+    margin: 10px 0 10px 0;
+
+}
+.form-lable {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+
+.-btn {
+    text-align: center;
+height: 35px;
+width: 90px;
+background-color: red;
+color: white;
+border: 0;
+}

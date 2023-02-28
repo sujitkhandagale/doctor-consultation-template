@@ -94,6 +94,14 @@ justify-items: end !important;
         float: right !important;
         grid-template-columns: 1fr 2fr !important;
       }
+
+      .experts-team {
+        display: grid !important;
+       grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        place-items: center;
+        justify-content: center;
+      }
 }
 
 @media only screen and (max-width:600px)
@@ -108,6 +116,22 @@ justify-items: end !important;
         justify-content: center !important;
         place-items: center !important;
 
-	}
-}
 
+	}
+    .experts-team {
+        display: grid !important;
+       grid-template-columns: 1fr 1fr ;
+
+
+        place-items: center !important;
+        justify-content: center;
+      }
+     .team-member {
+        width: 150px !important;
+        height: auto;
+      }
+
+      .experts-team .team-member img {
+        width: 100px;
+      }
+}

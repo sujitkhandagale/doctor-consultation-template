@@ -26,7 +26,7 @@ function Navbar({ childern }) {
 
 							<li>
 								<Link className="nav-link active" href="/">
-Home
+									HOme
 								</Link>
 							</li>
 							<li>
